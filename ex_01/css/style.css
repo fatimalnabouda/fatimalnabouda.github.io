@@ -1,0 +1,66 @@
+<link rel="stylesheet" href="styles.css">body {
+  background-color;
+}
+
+  ::selection {
+    color: white;
+    background: #F08080;
+}
+
+h1 {
+    font-size: 70px;
+
+
+  color: #F08080;
+  
+  text-align: center;
+ 
+  font-family: "Courier New"
+}
+
+h2 {
+  color: white;
+  font-size: 24 px;
+  text align: left;
+  font-family: "Courier New", light
+    
+}
+
+p {
+      text-align: justify;
+  font-size: 14px;
+  font-family: Verdana
+}
+
+a {
+  
+  color: #F08080
+
+
+    
+    
+}
+
+img {
+      opacity: 0.5;
+  style:  max-height: 300px; width: 345px ; 
+   }
+
+span.highlight {
+    background-color: #ADD8E6;
+}
+
+
+.floating-box {
+     vertical-align: text-top;
+    display: inline-block;
+    width: 350px;
+    height: 700px;
+    margin: 30px;
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}  
+
