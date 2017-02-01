@@ -8,37 +8,42 @@ body {
 }
 
 h1 {
-    font-size: 70px;
-
-
+  font-size: 70px;
   color: #F08080;
-  
   text-align: center;
- 
   font-family: "Courier New"
 }
 
 h2 {
   color: white;
   font-size: 24 px;
-  text align: left;
-  font-family: "Courier New", light
-    
+  text-align: left;
+  font-family: "Courier New", light  
 }
 
 p {
-      text-align: justify;
+  text-align: justify;
   font-size: 14px;
   font-family: Verdana
 }
 
 a {
-  
   color: #F08080
+}
 
+ol {
+  color: #F08080;
+  font-family: Arial, sans-serif;
+        font-size: 40px;
 
-    
-    
+}
+
+li {
+    color: #F08080;
+  font-family: Arial, sans-serif;
+    text-transform: uppercase; 
+      font-size: 40px;
+
 }
 
 img {
@@ -66,4 +71,10 @@ img:hover {
 
 #different {
   text-decoration: line-through;
+}
+
+
+li {
+
+  text-transform: capitalize;
 }
