@@ -1,0 +1,49 @@
+
+
+h1 {
+		font-family: 'Source Sans Pro', sans-serif;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6vw;
+    font-weight: bold;
+    color: white
+
+}
+
+p{
+        font-family: 'Source Sans Pro', sans-serif;  
+font-size: 14px;
+
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+body {
+    background-image: 
+
+    url("images/thecrew.gif") ,  
+
+    url("images/mina.gif"), 
+
+    url("images/junsun.gif"),
+
+     url("images/lia.gif"), 
+
+     url("images/eunho.gif"), 
+     url("images/sori.gif");
+
+         background-repeat: no-repeat, repeat;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+
+}
