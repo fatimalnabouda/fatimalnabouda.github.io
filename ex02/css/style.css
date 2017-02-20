@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+} /* to remove default css padding and margin settings*/
+
+body {
+	font-family: Montserrat, sans-serif;
+	background-color: white;
+}
+
+header {
+    
+    padding: 60px;
+    text-align: center;
+}
+
+h1 {
+
+	font-size: 60px;
+	text-align: center;
+}
+
+p {
+	font-size: 13px;
+	font-family: verdana;
+	padding: 30px;
+	background-color: black;
+	color: white;
+	line-height: 20px
+}
+
+nav {
+	background-color: black;
+}
+
+ul {
+	text-align: center;
+	padding: 10px
+}
+
+li{
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px;
+	width: 200px;
+	color: black;
+	background-color: white;
+
+}
+
+a:hover { /* pseudo-class */
+	background-color: pink;
+}
+
+a:active {
+	color: #FF878C;
+}
+
+img {
+	display: block;
+	width: 100%;
+	margin: auto;
+	/*float: left;*/
+}
+
+nav {
+	padding: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+aside {
+	background-color: white;
+	padding: 10px
+
+}
+
+article {
+	background-color: #E89C6C;
+	padding: 10px;
+}
+
+footer {
+	background-color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 10px auto;
+}
+
+#two_columns {
+	background-color: white;
+}
+
+#left {
+    margin: 0px; /*try changing the values of the margin*/
+    float: left;
+    width: 38%; /* left element’s width will be 3% of the available space */
+
+}
+
+#right {
+    background-color: white;
+    float: right;
+    width: 60%; /*right element’s width will be 60% of the available space*/
+
+}
+
+.clearfix:after { /* once you float elements that are nested inside a parent element it no longer add to the height of that parent element, you should use clearfix to get the two columns*/
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}

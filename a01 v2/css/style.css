@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+h1 {
+	font-family: 'Source Sans Pro', sans-serif; 
+    margin-left:-23px;
+    margin-top: -5vw;
+    font-size: 15vw;
+    font-weight: bold;
+    color: #00ADAD;
+    line-height: 14vw;
+}
+
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif; 
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+    color: #BE2227;
+    line-height: 4vw;
+}
+
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;  
+    
+    color: #00ADAD;
+font-size: 2vw;
+line-height: 3.2vw;
+
+    /*font-size: 1.6em;
+    line-height: 1.8em;*/
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+body {
+    background-color: white
+}
+
+
+img { 
+    width: 100%;
+    height: auto;
+}
+
+a:hover { 
+    color:  #00ADAD;
+}
+
+a {
+    color: #BE2227;
+    font-family: 'Source Sans Pro', sans-serif;  
+    text-decoration: none;
+}
+
+
+ul {
+    font-family: 'Source Sans Pro', sans-serif;  
+    color:white;
+    margin-left: 1.5vw;
+    text-align: center;
+}
+
+
+iframe {
+    border:10px solid #BE2227;
+}
+
+
+footer {
+    display: block;
+    height: 100px;
+    min-height: 100px;
+    position: relative;
+    padding: 45px;
+    background-color: #00ADAD;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+
+.center {
+    position: absolute;
+    font-family: 'Source Sans Pro', sans-serif, bold; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6vw;
+    font-weight: bold;
+    color:white;
+}
+
+
+.floating-box {
+   vertical-align: baseline;
+   display: inline-block;
+   width: 29vw;
+   height: 40vw;
+   margin-top: 20vw;
+   margin-right: 10vw;
+   margin-left: 4vw;
+}
+
+
+.videobox {
+   vertical-align: baseline;
+   display: inline-block;
+ 
+   margin-top: 10vw;
+   margin-right: 0vw;
+   margin-left: 7vw;
+}
+
+
+.large-margin {
+    vertical-align: baseline;
+    display: inline-block;
+    width: 80vw;
+    height: 40vw;
+    margin-top: 12vw;
+    margin-right: 30px;
+    margin-left: 10vw;
+}
+
+
+#icon {
+    max-width: 4%;
+    height: auto;
+    margin-right: 1vw;
+}
+
+#footertitle {
+    margin-left: 20px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+
+#fixed {
+    text-align: center;
+    margin-left: 90vw;
+    position: fixed;
+
+
+}
+
