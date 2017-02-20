@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 
 
 h1 {
@@ -23,9 +28,13 @@ h2 {
 
 p{
     font-family: 'Source Sans Pro', sans-serif;  
-    font-size: 1.6em;
+    
     color: #00ADAD;
-    line-height: 1.8em;
+font-size: 2vw;
+line-height: 3.2vw;
+
+    /*font-size: 1.6em;
+    line-height: 1.8em;*/
 }
 
 
@@ -59,21 +68,24 @@ a {
 ul {
     font-family: 'Source Sans Pro', sans-serif;  
     color:white;
+    margin-left: 1.5vw;
+    text-align: center;
 }
 
 
 iframe {
-    border:15px solid #BE2227;
+    border:10px solid #BE2227;
 }
 
 
 footer {
     display: block;
-    height: 170px;
-    min-height: 170px;
+    height: 100px;
+    min-height: 100px;
     position: relative;
-    padding: 15px;
-    background-color: #00ADAD
+    padding: 45px;
+    background-color: #00ADAD;
+    text-align: center;
 }
 
 .container {
@@ -96,22 +108,32 @@ footer {
 .floating-box {
    vertical-align: baseline;
    display: inline-block;
-   width: 450px;
-   height: 500px;
-   margin-top: 200px;
-   margin-right: 30px;
-   margin-left: 100px;
+   width: 29vw;
+   height: 40vw;
+   margin-top: 20vw;
+   margin-right: 10vw;
+   margin-left: 4vw;
+}
+
+
+.videobox {
+   vertical-align: baseline;
+   display: inline-block;
+ 
+   margin-top: 10vw;
+   margin-right: 0vw;
+   margin-left: 7vw;
 }
 
 
 .large-margin {
     vertical-align: baseline;
     display: inline-block;
-    width: 900px;
-    height: 500px;
-    margin-top: 50px;
+    width: 80vw;
+    height: 40vw;
+    margin-top: 12vw;
     margin-right: 30px;
-    margin-left: 150px;
+    margin-left: 10vw;
 }
 
 
@@ -128,4 +150,12 @@ footer {
     font-weight: bold;
 }
 
+
+#fixed {
+    text-align: center;
+    margin-left: 90vw;
+    position: fixed;
+
+
+}
 
